@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const notesData = require('./db/db.json');
 
 // Generate unique ids for notes
 const uuid = require('./helpers/uuid.js');
@@ -23,6 +24,9 @@ app.get('/', (req, res) =>
 app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
+
+// GET Route for notes data (json db)
+app.get('/api/notes', (req, res) => res.json(notesData));
 
 app.listen(PORT, () => {
     console.log(`Listening at http://localhost:${PORT}`);
