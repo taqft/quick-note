@@ -10,9 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theresaqueryforthat/quick-note.git"
@@ -22,5 +21,6 @@
     "url": "https://github.com/theresaqueryforthat/quick-note/issues"
   },
   "homepage": "https://github.com/theresaqueryforthat/quick-note#readme",
+  "devDependencies": {},
   "description": ""
 }
