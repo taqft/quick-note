@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 // Generate unique ids for notes
-const uuid = require('./helpers/uuid');
+const uuid = require('./helpers/uuid.js');
 
 const PORT = process.env.PORT || 3001;
 
