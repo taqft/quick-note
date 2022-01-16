@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const notesData = require('./db/db.json');
 const fs = require('fs');
 const util = require('util');
 
@@ -12,8 +11,10 @@ const {
   v4: uuidv4
 } = require('uuid');
 
+// Environment variables, or fallback to port 3001
 const PORT = process.env.PORT || 3001;
 
+// Set up Express.js back end application
 const app = express();
 
 // Parse JSON and urlencoded form data
@@ -79,13 +80,13 @@ app.post('/api/notes', (req, res) => {
     text,
   } = req.body;
 
-  // only continue if properties are present in the response body
+  // only continue if properties are present in the request body
   if (title && text) {
     // create the new note for storage
     const newNote = {
       title: title,
       text: text,
-      id: uuidv4(),
+      id: uuidv4(), // unique id generation
     };
 
     const response = {
@@ -93,8 +94,9 @@ app.post('/api/notes', (req, res) => {
       body: newNote,
     };
 
+    // once confirmed to be valid, store the new note
     readAndAppend(newNote, './db/db.json');
-    res.status(201).json(`Note added successfully ✔️`);
+    res.status(201).json(response);
   } else {
     res.status(500).json('Error in saving note');
   }
