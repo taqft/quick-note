@@ -10,7 +10,8 @@
   "dependencies": {
     "express": "^4.17.2",
     "fs": "^0.0.1-security",
-    "util": "^0.12.4"
+    "util": "^0.12.4",
+    "uuid": "^8.3.2"
   },
   "repository": {
     "type": "git",
@@ -21,11 +22,11 @@
     "url": "https://github.com/theresaqueryforthat/quick-note/issues"
   },
   "homepage": "https://github.com/theresaqueryforthat/quick-note#readme",
-  "devDependencies": {},
   "nodemonConfig": {
     "ignore": [
       "*.json"
     ]
   },
+  "devDependencies": {},
   "description": ""
 }
