@@ -33,7 +33,10 @@ app.get('/notes', (req, res) =>
 );
 
 // GET Route for notes data (from json db)
-app.get('/api/notes', (req, res) => res.json(notesData));
+app.get('/api/notes', (req, res) => {
+    console.info(`${req.method} request received for notes`);
+    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
+});
 
 /**
  *  Function to write data to a JSON file given a destination and some content
@@ -43,7 +46,7 @@ app.get('/api/notes', (req, res) => res.json(notesData));
  */
 const writeToFile = (destination, content) =>
     fs.writeFile(destination, JSON.stringify(content, null, 4), (err) =>
-        err ? console.error(err) : console.info(`\nData written to ${destination}`)
+        err ? console.error(err) : console.info(`Data written to ${destination}`)
     );
 
 /**
@@ -89,8 +92,7 @@ app.post('/api/notes', (req, res) => {
         };
 
         readAndAppend(newNote, './db/db.json');
-        res.json(`Note added successfully ✔️`);
-        res.status(201).json(response);
+        res.status(201).json(`Note added successfully ✔️`);
     } else {
         res.status(500).json('Error in saving note');
     }

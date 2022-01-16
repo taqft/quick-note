@@ -22,5 +22,10 @@
   },
   "homepage": "https://github.com/theresaqueryforthat/quick-note#readme",
   "devDependencies": {},
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
   "description": ""
 }
