@@ -1,11 +1,17 @@
-[{
-    "title": "Test Note 1",
-    "text": "This will have the first unique uuid for testing.",
-    "id": "4517960f-2514-41d5-9c16-3ea6dcc3625e"
-  },
-  {
-    "title": "Test Note 2",
-    "text": "This is another note for testing.",
-    "id": "2093bddb-81ad-4165-be5c-1c5caafacf11"
-  }
+[
+    {
+        "title": "Project Retro notes",
+        "text": "Billy seems worn out from his work\nJohn didn't get snagged on much - maybe he can team up on next project",
+        "id": "c077f52a-be4e-49e9-9dc9-bd3a96233b69"
+    },
+    {
+        "title": "Certification renewal",
+        "text": "Coming up 2/1/22 - Schedule a time to get units for credit",
+        "id": "395f3949-ba62-455a-b714-904433081d8e"
+    },
+    {
+        "title": "Yearly Kick-Off",
+        "text": "- Get party favors\n- Send mugs and hats to everyone\n- Should we do gift cards/food/etc. ??",
+        "id": "789a8987-a6e9-46b4-852d-afafe2ccb817"
+    }
 ]
