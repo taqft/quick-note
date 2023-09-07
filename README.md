@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/theresaqueryforthat/quick-note">
+  <a href="https://github.com/taqft/quick-note">
     <img src="public/assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -37,9 +37,9 @@
     <br />
     <a href="https://quick-note-100.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/quick-note/issues">Report Bug</a>
+    <a href="https://github.com/taqft/quick-note/issues">Report Bug</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/quick-note/issues">Request Feature</a>
+    <a href="https://github.com/taqft/quick-note/issues">Request Feature</a>
   </p>
 </div>
 
@@ -60,7 +60,7 @@
 
 * Built with NodeJS and ExpressJS, this simple app allows you to write and store unique notes quickly and easily. I worked on this to easily jot down ideas and notes for later, and to serve as a base for future improvements and features to make our lives easier.
 
-* This README file was generated with [auto-readme](https://github.com/theresaqueryforthat/auto-readme/)! Go check it out if you're interested in learning more!
+* This README file was generated with [auto-readme](https://github.com/taqft/auto-readme/)! Go check it out if you're interested in learning more!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,7 +130,7 @@ Don't forget to give the project a star if you liked it!
 
 * Have questions?
 * Reach out to me: 
-* https://github.com/theresaqueryforthat/
+* https://github.com/taqft/
 * [ben.koenig512@outlook.com](mailto:ben.koenig512@outlook.com "My contact Email")
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -146,16 +146,16 @@ Don't forget to give the project a star if you liked it!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/theresaqueryforthat/quick-note.svg?style=for-the-badge
-[contributors-url]: https://github.com/theresaqueryforthat/quick-note/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/theresaqueryforthat/quick-note.svg?style=for-the-badge
-[forks-url]: https://github.com/theresaqueryforthat/quick-note/network/members
-[stars-shield]: https://img.shields.io/github/stars/theresaqueryforthat/quick-note.svg?style=for-the-badge
-[stars-url]: https://github.com/theresaqueryforthat/quick-note/stargazers
-[issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/quick-note.svg?style=for-the-badge
-[issues-url]: https://github.com/theresaqueryforthat/quick-note/issues
-[license-shield]: https://img.shields.io/github/license/theresaqueryforthat/quick-note.svg?style=for-the-badge&cacheSeconds=3600
-[license-url]: https://github.com/theresaqueryforthat/quick-note/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/taqft/quick-note.svg?style=for-the-badge
+[contributors-url]: https://github.com/taqft/quick-note/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/taqft/quick-note.svg?style=for-the-badge
+[forks-url]: https://github.com/taqft/quick-note/network/members
+[stars-shield]: https://img.shields.io/github/stars/taqft/quick-note.svg?style=for-the-badge
+[stars-url]: https://github.com/taqft/quick-note/stargazers
+[issues-shield]: https://img.shields.io/github/issues/taqft/quick-note.svg?style=for-the-badge
+[issues-url]: https://github.com/taqft/quick-note/issues
+[license-shield]: https://img.shields.io/github/license/taqft/quick-note.svg?style=for-the-badge&cacheSeconds=3600
+[license-url]: https://github.com/taqft/quick-note/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: public/assets/images/demo.gif
 [portfolio-shield]: https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white
