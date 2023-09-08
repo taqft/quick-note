@@ -15,13 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theresaqueryforthat/quick-note.git"
+    "url": "git+https://github.com/taqft/quick-note.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/theresaqueryforthat/quick-note/issues"
+    "url": "https://github.com/taqft/quick-note/issues"
   },
-  "homepage": "https://github.com/theresaqueryforthat/quick-note#readme",
+  "homepage": "https://github.com/taqft/quick-note#readme",
   "nodemonConfig": {
     "ignore": [
       "*.json"
